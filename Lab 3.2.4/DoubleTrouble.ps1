@@ -1,4 +1,9 @@
-﻿ param($path = "C:\Windows")
+﻿#
+# Lab 3.2.4
+#
+ 
+ 
+ param($path = "C:\Windows")
   
  $files = Get-ChildItem -Path $path
  

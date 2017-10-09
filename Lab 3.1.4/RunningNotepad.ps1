@@ -1,4 +1,8 @@
-﻿$process = Get-Process -Name notepad -ErrorAction SilentlyContinue
+﻿#
+# Lab 3.1.4
+#
+
+$process = Get-Process -Name notepad -ErrorAction SilentlyContinue
 
 if ($process) {
     write-host "notepad is already running"

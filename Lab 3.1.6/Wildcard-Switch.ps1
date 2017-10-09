@@ -1,4 +1,8 @@
-﻿
+﻿#
+# Lab 3.1.5
+#
+
+
 $datornamn = "srv02"
 
 switch -Wildcard ($datornamn) {

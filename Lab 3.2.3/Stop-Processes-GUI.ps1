@@ -1,4 +1,7 @@
-﻿# Using Out-Gridview as a filtering tool
+﻿#
+# Lab 3.2.3
+#
+# Using Out-Gridview as a filtering tool
 
 $processes = Get-Process | Out-GridView -PassThru
 

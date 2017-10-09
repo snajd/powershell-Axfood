@@ -1,4 +1,8 @@
-﻿$test = 10
+﻿#
+# Lab 3.1.3
+#
+
+$test = 10
 if ($test -eq 10) {
     write-host "$test equals 10"
 } else {

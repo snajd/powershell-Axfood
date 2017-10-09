@@ -1,4 +1,7 @@
-﻿
+﻿#
+# Lab 3.1.7
+#
+
 $w10version = (Get-WmiObject win32_operatingsystem).version
 
 switch -wildcard ($w10version)

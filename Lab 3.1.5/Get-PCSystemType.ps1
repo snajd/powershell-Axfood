@@ -1,4 +1,8 @@
-﻿$computertype = (Get-WmiObject -Class win32_computersystem).PCSystemType
+﻿#
+# Lab 3.1.5
+#
+
+$computertype = (Get-WmiObject -Class win32_computersystem).PCSystemType
 switch ($computertype) {
     0 {write-host "Unspecified"}
     1 {write-host "Desktop"}
