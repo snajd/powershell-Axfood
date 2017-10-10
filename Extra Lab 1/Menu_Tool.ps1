@@ -13,7 +13,7 @@ do
     write-host -ForegroundColor green "2) Test DN"
     write-host -ForegroundColor green "3) Test Svenska Dagbladet"
     write-host ""
-    write-host -ForegroundColor Yellow "Or ress (Q) to quit" 
+    write-host -ForegroundColor Yellow "Or press (Q) to quit" 
      
     $input = read-host "What site do you want to test?"
     switch ($input) {
