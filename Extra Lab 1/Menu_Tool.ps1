@@ -12,6 +12,7 @@ do
     write-host -ForegroundColor green "1) Test Aftonbladet"
     write-host -ForegroundColor green "2) Test DN"
     write-host -ForegroundColor green "3) Test Svenska Dagbladet"
+    write-host -ForegroundColor green "4) Test Axfood"
     write-host ""
     write-host -ForegroundColor Yellow "Or press (Q) to quit..." 
      
@@ -20,6 +21,7 @@ do
         1 {$testsite = "www.aftonbladet.se"}
         2 {$testsite = "www.dn.se"}
         3 {$testsite = "www.svd.se"}
+        4 {$testsite = "www.axfood.se"}
         }
         
         if ($input -ne "q") {
