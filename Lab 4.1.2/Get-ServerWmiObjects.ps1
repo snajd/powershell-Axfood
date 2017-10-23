@@ -1,4 +1,6 @@
 ﻿#använd Get-Wmiobject för att hämta information ur WMI och lagra i variabel
+$servers = "localhost",
+
 $computersystem = Get-WmiObject -Class Win32_Computersystem -ComputerName localhost
 $computerOperatingsystem = Get-WmiObject -Class Win32_Operatingsystem -ComputerName localhost
 
